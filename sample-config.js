@@ -529,7 +529,6 @@ config['tulip-adx'] = {
 // it doesn't advice on itself, only set to true if you truly
 // understand this.
 //
-// Not sure? Read this first: https://github.com/askmike/gekko/issues/201
 config['I understand that Gekko only automates MY OWN trading strategies'] = false;
 
 module.exports = config;
