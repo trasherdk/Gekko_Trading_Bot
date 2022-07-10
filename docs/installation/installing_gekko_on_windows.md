@@ -3,8 +3,8 @@
 *NOTE: unfortunately installing and managing Gekko is hard. You will need to touch the commandline and install a few developer tools. I am creating an official Gekko service called [Gekko Plus](https://gekkoplus.com/), it will NOT require any installation.*
 
 ### Note:
-#### Windows does not natively support TA-lib. We are currently working on implementing the Tulip Indicators Library, which will provide similar functionality (see [#708](https://github.com/askmike/gekko/issues/708)).
-#### For advanced users only: As a temporary workaround until [#708](https://github.com/askmike/gekko/issues/708) is implemented, TA-lib can be used on Windows through Bash on Windows 10. See "Installing Gekko on Windows with bash on Windows 10"
+#### Windows does not natively support TA-lib. We are currently working on implementing the Tulip Indicators Library, which will provide similar functionality.
+#### For advanced users only: As a temporary workaround until Tulip is implemented, TA-lib can be used on Windows through Bash on Windows 10. See "Installing Gekko on Windows with bash on Windows 10"
 
 Here is a youtube video I made that shows exactly how to set up Gekko:
 
