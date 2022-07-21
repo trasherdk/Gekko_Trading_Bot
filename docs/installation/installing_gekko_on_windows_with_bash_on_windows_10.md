@@ -3,7 +3,7 @@
 *NOTE: unfortunately installing and managing Gekko is hard. You will need to touch the commandline and install a few developer tools. I am creating an official Gekko service called [Gekko Plus](https://gekkoplus.com/), it will NOT require any installation.*
 
 ### Note: 
-#### This guide is for advance users only! This is a temporary solution until [#708](https://github.com/askmike/gekko/issues/708) is implemented
+#### This guide is for advance users only! This is a temporary solution until is implemented
 #### You must be running a 64-bit version of Windows 10 to use Bash on Windows 10
 #### TA-lib does not support Windows 10, but it can be used on Bash on Windows 10 by following these instructions 
 
@@ -66,7 +66,7 @@ The easiest way to download Gekko is to use Git:
 - Download and install gekko in you home directory (/home/yourusername): (taken from [here](https://gekko.wizb.it/docs/installation/installing_gekko.html)):
 
 ```
-git clone git://github.com/askmike/gekko.git
+git clone git://github.com/TUDTech/Gekko_Trading_Bot.git
 cd gekko
 npm install --only=production
 cd exchange
