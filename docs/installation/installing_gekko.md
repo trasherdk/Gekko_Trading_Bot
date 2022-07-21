@@ -30,12 +30,12 @@ As part of Gekko's installation process git is used, see [this guide](https://ww
 
 The recommended way of downloading Gekko is by using git. This makes keeping Gekko up to date a lot easier. Run this in a terminal:
 
-    git clone git://github.com/askmike/gekko.git -b stable
+    git clone git://github.com/TUDTech/Gekko_Trading_Bot.git -b stable
     cd gekko
 
 This will download the latest stable version of Gekko, remove the final `-b stable` part to download the current latest release (which might not be as stable).
 
-Alternatively you can manually download the latest stable version of Gekko on the [releases page](https://github.com/askmike/gekko/releases).
+Alternatively you can manually download the latest stable version of Gekko on the release page.
 
 ## Installing Gekko's dependencies
 
@@ -43,7 +43,7 @@ Once you have Gekko downloaded you need to install the dependencies, open your t
 
     npm install --only=production
 
-*NOTE: You may see a vulnerability warning from NPM, if you run npm audit with --force, Gekko will break. See [here](https://github.com/askmike/gekko/issues/2585#issuecomment-428450997).*
+*NOTE: You may see a vulnerability warning from NPM, if you run npm audit with --force, Gekko will break.
 
 You also need to install Gekko Broker's dependencies, run:
 
