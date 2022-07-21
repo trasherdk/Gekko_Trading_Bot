@@ -10,7 +10,7 @@ For example, there is a plugin called the paperTrader which is responsible for s
 
 - All plugins are javascript files that expose a constructor function (or ES6 class).
 - All plugins are stored in `gekko/plugins`.
-- All plugins are described in the file [`gekko/plugins.js`](https://github.com/askmike/gekko/blob/develop/plugins.js), this way Gekko knows how/when the plugin can be used (for example it does not make sense to run a telegram bot that will emit all trades in a backtest).
+- All plugins are described in the file gekko/plugins.js, this way Gekko knows how/when the plugin can be used (for example it does not make sense to run a telegram bot that will emit all trades in a backtest).
 
 ## Structure of a plugin
 
@@ -34,4 +34,4 @@ A plugin can be a very simple module that simply listens to some event:
 
     module.exports = Plugin;
 
-Have a look at the [events doc](./events.md) for all events your plugin can subscribe to. For technical inspiration it's easiest to look at the code of Gekko's plugins (here [`gekko/plugins.js`](https://github.com/askmike/gekko/blob/develop/plugins.js)).
+Have a look at the [events doc](./events.md) for all events your plugin can subscribe to. For technical inspiration it's easiest to look at the code of Gekko's plugins.
