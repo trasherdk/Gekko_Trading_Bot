@@ -14,7 +14,7 @@ Gekko supports backtesting strategies over historical data. A Backtest is a simu
 
 Simulating trades is done through a module called the paper trader. This module will use market candles together with fee, slippage and spread numbers to estimate trade executions costs. While the default settings work great for most big markets (USD/BTC or BTC/ETH), it becomes a lot less acurate on smaller markets with low volume and liquidity.
 
-In live trading the notion of the "price" is more complicated than a single number. Both `spread` and `slippage` will effect your trade prices: these numbers describe your desired trades in relation to what people are currently offering in the market (this is called the orderbook). Read more about this in [this explanation](https://github.com/askmike/gekko/issues/2380#issuecomment-408744682).
+In live trading the notion of the "price" is more complicated than a single number. Both `spread` and `slippage` will effect your trade prices: these numbers describe your desired trades in relation to what people are currently offering in the market (this is called the orderbook).
 
 If you look at the following backtest result:
 
