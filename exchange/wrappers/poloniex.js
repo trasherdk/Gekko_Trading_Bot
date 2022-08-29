@@ -480,13 +480,10 @@ Trader.prototype.getTrades = function(since, callback, descending) {
     if(err)
       return callback(err);
 
-    // Edge case, see here:
-    // @link https://github.com/askmike/gekko/issues/479
     if(firstFetch && _.size(result) === 50000)
       return callback(
         [
-          'Poloniex did not provide enough data. Read this:',
-          'https://github.com/askmike/gekko/issues/479'
+          'Poloniex did not provide enough data.'
         ].join('\n\n')
       );
 
