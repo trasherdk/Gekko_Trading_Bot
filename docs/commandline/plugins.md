@@ -122,7 +122,6 @@ Mailer will automatically email you whenever Gekko has a new advice.
       // You don't have to set your password here, if you leave it blank we will ask it
       // when Gekko's starts.
       //
-      // NOTE: Gekko is an open source project < https://github.com/askmike/gekko >,
       // make sure you looked at the code or trust the maintainer of this bot when you
       // fill in your email and password.
       //
@@ -141,7 +140,6 @@ Mailer will automatically email you whenever Gekko has a new advice.
   > You don't have to set your password here, if you leave it blank we will ask it
   > when Gekko's starts.
   >
-  > NOTE: Gekko is an open source project < https://github.com/askmike/gekko >,
   > make sure you looked at the code or trust the maintainer of this bot when you
   > fill in your email and password.
   >
