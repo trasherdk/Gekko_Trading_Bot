@@ -128,10 +128,6 @@ method.check = function(candle) {
 
     // we're not in an up nor in a downtrend
     // but for now we ignore sideways trends
-    //
-    // read more @link:
-    //
-    // https://github.com/askmike/gekko/issues/171
 
     // this.trend = {
     //   direction: 'none',
