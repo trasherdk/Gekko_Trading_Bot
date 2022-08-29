@@ -159,7 +159,6 @@ class StickyOrder extends BaseOrder {
 
   // check if the last order was partially filled
   // on an exchange that does not pass fill data on cancel
-  // see https://github.com/askmike/gekko/pull/2450
   handleInsufficientFundsError(err) {
     if(
       !err ||
