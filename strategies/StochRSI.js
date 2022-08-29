@@ -2,8 +2,6 @@
 
   StochRSI - SamThomp 11/06/2014
 
-  (updated by askmike) @ 30/07/2016
-
  */
 // helpers
 var _ = require('lodash');
