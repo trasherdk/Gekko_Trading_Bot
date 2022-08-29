@@ -74,8 +74,6 @@ npm install --only=production
 cd ..
 ```
 
-*NOTE: You may see a vulnerability warning from NPM, if you run npm audit with --force, Gekko will break. See [here](https://github.com/askmike/gekko/issues/2585#issuecomment-428450997).*
-
 ### Starting Gekko
 
 `node gekko --ui`
