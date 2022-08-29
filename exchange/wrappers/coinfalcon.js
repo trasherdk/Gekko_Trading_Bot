@@ -56,7 +56,6 @@ const recoverableErrors = [
   // "The timestamp 1527996378 is invalid, current timestamp is 1527996441."
   'is invalid, current timestamp is',
   'EHOSTUNREACH',
-  // https://github.com/askmike/gekko/issues/2407
   'We are fixing a few issues, be back shortly.',
   'Client network socket disconnected before secure TLS connection was established',
   'socket hang up',
@@ -296,7 +295,6 @@ Trader.prototype.cancelOrder = function(order, callback) {
     if(err) {
       if(err.message.includes('has wrong status.')) {
 
-        // see https://github.com/askmike/gekko/issues/2440
         return setTimeout(() => {
           this.checkOrder(order, (err, res) => {
 
