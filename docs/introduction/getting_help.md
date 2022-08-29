@@ -19,7 +19,3 @@ These communities are the place for things like:
   - New plugins to add
   - General new features
 - Getting clarity on what Gekko can do and how it works
-
-## Technical discussion
-
-The links above are always the first place to go to when discussing new features. But if you've found a clear bug or you want to **keep the complete discussion 100% technical (meaning completely code and architecture related)** you can use the [bug tracker on github](https://github.com/askmike/gekko/issues). Note that we are trying to keep all other discussions out of the bug tracker to keep the whole thing manageable :)
