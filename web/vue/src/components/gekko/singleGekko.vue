@@ -83,8 +83,7 @@
               .grd-row
                 .grd-row-col-3-6 Alpha
                 .grd-row-col-3-6 {{ round(report.alpha) }} {{ config.watch.currency }}
-        p(v-if='isStratrunner && !watcher && !isArchived') WARNING: stale gekko, not attached to a watcher, please report 
-          a(href='https://github.com/askmike/gekko/issues') here
+        p(v-if='isStratrunner && !watcher && !isArchived') WARNING: stale gekko, not attached to a watcher
           | .
         p(v-if='!isArchived')
           a(v-on:click='stopGekko', class='w100--s my1 btn--red') Stop Gekko
