@@ -68,7 +68,7 @@ Mailer.prototype.setup = function(done) {
     var warning = [
       '\n\n\tYou configured Gekko to mail you advice, Gekko needs your email',
       'password to send emails (to you). Gekko is an opensource project',
-      '[ http://github.com/askmike/gekko ], you can take my word but always',
+      '[ https://github.com/TUDTech/Gekko_Trading_Bot ], you can take my word but always',
       'check the code yourself.',
       '\n\n\tWARNING: If you have not downloaded Gekko from the github page above we',
       'CANNOT guarantuee that your email address & password are safe!\n'
