@@ -123,8 +123,6 @@ describe('budfox/tradeBatcher', function() {
     expect(tbResult.data.length).to.equal(2);
   });
 
-  // see @link
-  // https://github.com/askmike/gekko/issues/486
   it('should filter out empty trades', function() {
     tb = new TradeBatcher('tid');
 
