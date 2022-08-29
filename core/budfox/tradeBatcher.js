@@ -100,8 +100,6 @@ TradeBatcher.prototype.filter = function(batch) {
     util.die('trade tid is max int, Gekko can\'t process..');
 
   // remove trades that have zero amount
-  // see @link
-  // https://github.com/askmike/gekko/issues/486
   batch = _.filter(batch, function(trade) {
     return trade.amount > 0;
   });
