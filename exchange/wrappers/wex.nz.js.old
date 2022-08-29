@@ -18,7 +18,6 @@ var Trader = function(config) {
   this.wex = new WEX(this.key, this.secret);
   _.bindAll(this.wex, ['trade', 'trades', 'getInfo', 'ticker', 'orderList']);
 
-  // see @link https://github.com/askmike/gekko/issues/302
   this.wexHistorocial = new WEX(false, false, {public_url: 'https://wex.nz/api/3/'});
   _.bindAll(this.wexHistorocial, 'trades');
 }
@@ -212,7 +211,6 @@ Trader.prototype.getTrades = function(since, callback, descending) {
       callback(false, trades.reverse());
   }.bind(this);
 
-  // see @link https://github.com/askmike/gekko/issues/302
   if(since) {
     this.wexHistorocial.makePublicApiRequest(
       'trades',
