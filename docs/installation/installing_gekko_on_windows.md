@@ -22,7 +22,7 @@ Gekko runs on nodejs so we have to install that first. Head over the [nodejs hom
 
 ## Install Gekko
 
-The easiest way to download Gekko is to go to the [Github repo](https://github.com/askmike/gekko) and click on the 'zip' button at the top. Once you have downloaded the zip file it's the easiest to extract it. When you have done that we can begin with the cool stuff:
+The easiest way to download Gekko is to go to the [Github repo](https://github.com/TUDTech/Gekko_Trading_Bot) and click on the 'zip' button at the top. Once you have downloaded the zip file it's the easiest to extract it. When you have done that we can begin with the cool stuff:
 
 ### Open up command line
 
@@ -43,8 +43,6 @@ First navigate to Gekko:
 Install Gekko's dependencies:
 
     npm install --only=production
-
-*NOTE: You may see a vulnerability warning from NPM, if you run npm audit with --force, Gekko will break. See [here](https://github.com/askmike/gekko/issues/2585#issuecomment-428450997).*
 
 Install Gekko Broker's dependencies:
 
