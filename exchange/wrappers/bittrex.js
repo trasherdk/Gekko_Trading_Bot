@@ -271,13 +271,10 @@ Trader.prototype.getTrades = function(since, callback, descending) {;
 
     var result = data.result;
 
-    // Edge case, see here:
-    // @link https://github.com/askmike/gekko/issues/479
     if(firstFetch && _.size(result) === 50000)
       util.die(
         [
-          'Bittrex did not provide enough data. Read this:',
-          'https://github.com/askmike/gekko/issues/479'
+          'Bittrex did not provide enough data.
         ].join('\n\n')
       );
 
