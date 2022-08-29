@@ -1,7 +1,5 @@
 # Gekko's architecture
 
-![Gekko architecture](https://wizb.it/gekko/static/architecture.jpg)
-
 Every Gekko instance has two core components:
 
 - A market
@@ -11,7 +9,7 @@ Communication between those two components is handled by Node.JS' [Stream API](h
 
 ## A Market
 
-All markets in Gekko eventually output `candle` data. Where these candles come from and how old they are does not matter to the GekkoStream they get piped into. On default Gekko looks for markets in the [`core/markets/` directory](https://github.com/askmike/gekko/tree/stable/core/markets). The top orange block in the picture is a BudFox market (the default semi-realtime market that gets live data from exchanges).
+All markets in Gekko eventually output `candle` data. Where these candles come from and how old they are does not matter to the GekkoStream they get piped into. On default Gekko looks for markets in the core/markets/ directory. The top orange block in the picture is a BudFox market (the default semi-realtime market that gets live data from exchanges).
 
 Example Markets that come included with Gekko are:
 
