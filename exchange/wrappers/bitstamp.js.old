@@ -214,7 +214,6 @@ Trader.prototype.getTrades = function(since, callback, descending) {
     callback(null, result.reverse());
   }.bind(this);
 
-  // NOTE: temporary disabled, see https://github.com/askmike/gekko/issues/794
   // if(since)
   //   this.bitstamp.transactions(this.market, {time: 'day'}, process);
   // else
