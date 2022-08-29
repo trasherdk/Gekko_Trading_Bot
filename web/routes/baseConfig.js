@@ -86,9 +86,6 @@ config.adviceWriter = {
 //                       CONFIGURING BACKTESTING
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-// Note that these settings are only used in backtesting mode, see here:
-// @link: https://github.com/askmike/gekko/blob/stable/docs/Backtesting.md
-
 config.backtest = {
   daterange: 'scan',
   batchSize: 50
