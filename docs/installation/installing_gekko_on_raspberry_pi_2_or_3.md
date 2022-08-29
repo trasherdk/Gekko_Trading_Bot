@@ -30,7 +30,7 @@ Important: Ignore the errors!
 The recommended way of downloading Gekko is by using git. This makes keeping Gekko up to date a lot easier. Run this in a terminal:
 
     sudo apt-get install git
-    git clone git://github.com/askmike/gekko.git -b stable
+    git clone git://github.com/TUDTech/Gekko_Trading_Bot.git -b stable
     cd gekko
 
 This will download the latest stable version of Gekko, remove the final `-b stable` part to download the current latest release (which might not be as stable).
