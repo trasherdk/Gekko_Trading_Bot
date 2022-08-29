@@ -3,11 +3,6 @@
   Gekko is a Bitcoin trading bot for popular Bitcoin exchanges written 
   in node, it features multiple trading methods using technical analysis.
 
-  If you are interested in how Gekko works, read more about Gekko's 
-  architecture here:
-
-  https://github.com/askmike/gekko/blob/stable/docs/internals/architecture.md
-
   Disclaimer:
 
   USE AT YOUR OWN RISK!
